@@ -215,6 +215,175 @@ h2 {
     line-height: 1.8;
     margin-bottom: 1.5rem;
 }
+/* skills section */
 
+.skills {
+    padding: 5rem 1.5rem;
+    background: #020617;
+}
+
+.skills .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.skills_header {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto 3rem auto;
+}
+
+.skills_header h2 {
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.skills_header p {
+    color: #94a3b8;
+    line-height: 1.7;
+}
+
+.skill_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.skill_card {
+    padding: 2rem;
+    border-radius: 24px;
+    background: radial-gradient(circle at top, rgba(79, 70, 229, 0.15), rgba(15, 23, 42, 0.7));
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 0 20px 35px rgba(2, 6, 23, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+.skill_card h3 {
+    font-size: 1.25rem;
+    color: #e5e7eb;
+}
+
+.skill_card p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.tech_tags {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech_tags span {
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    background: rgba(14, 165, 233, 0.15);
+    border: 1px solid rgba(14, 165, 233, 0.3);
+    font-size: 0.85rem;
+    color: #bae6fd;
+    letter-spacing: 0.03em;
+}
+
+/* contact section */
+
+.contact {
+    padding: 5rem 1.5rem;
+    background: linear-gradient(145deg, #0f172a 0%, #1e1b4b 100%);
+}
+
+.contact .container {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact form {
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 24px;
+    background: rgba(2, 6, 23, 0.7);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 0 20px 50px rgba(2, 6, 23, 0.6);
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    border-radius: 16px;
+    padding: 0.9rem 1.1rem;
+    background: rgba(15, 23, 42, 0.8);
+    color: #e2e8f0;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border-color: #0ea5e9;
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.25);
+}
+
+.contact .btn {
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+    padding-inline: 2.5rem;
+}
+
+/* footer */
+.site_footer {
+    padding: 3rem 1.5rem;
+    background: radial-gradient(circle at top, rgba(79, 70, 229, 0.15), #020617);
+    border-top: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.site_footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.95rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.site_footer a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.site_footer a:hover {
+    color: #0ea5e9;
+}
+
+.site_footer .contact_links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.site_footer .socials {
+    justify-content: center;
+}
+
+.site_footer p {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.9rem;
+}
 
 
